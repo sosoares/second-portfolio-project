@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">- Race Registration -</h1>
+    <hr><br>
+    <section>
+        <h2 class="intro">Welcome to the annual race of Webland. To participate, you just need to <em>complete the
+                registration form</em> down below!</h2>
+        <br>
+        <form action="/goto">
+
+            <div class="member">
+                <label for="name">First Name:</label>
+                <input type="text" required id="name" name="name">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" required id="lastname" name="lastname">
+            </div>
+            <div id="choose-race">
+                <br>
+                <p>Select a Race:</p>
+                <input type="radio" name="race" id="funrun" value="funrun">
+                <label for="funrun">Fun Run 5k</label>
+                <br>
+                <input type="radio" name="race" id="half" value="half">
+                <label for="half">Half Marathon</label>
+
+                <br>
+                <input type="radio" name="race" id="full" value="full">
+                <label for="half">Full Marathon</label>
+            </div>
+            <br>
+            <div class="member">
+                <label for="email">Email:</label>
+                <input type="email" required id="email" name="email">
+
+                <label for="password">Password:</label>
+                <input type="password" required id="password" name="password" minlength="3" maxlength="15">
+            </div>
+
+            <div id="age-group">
+                <br>
+                <label for="selection">Select Age Group</label>
+                <select name="agegroup" id="selection">
+                    <option value="under18">Under 18</option>
+                    <option value="middleage">18-30</option>
+                    <option value="adult">30-50</option>
+                    <option value="senior">50+</option>
+                </select>
+            </div>
+            <br>
+            <button>REGISTER</button>
+        </form>
+    </section>
+    <img id='bgimage' src="css/runner.jpg" alt="manStretching">
+
+    <footer> &copy; sosoares</footer>
+</body>
+
+
+</html>
