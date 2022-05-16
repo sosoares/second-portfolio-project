@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: grey;
+    font-size: 4em;
+    margin: 10px 5px;
+}
+.intro{
+    width: 940px;
+    margin: 10px auto;
+}
+
+.intro em {
+    font-weight: bold;
+}
+
+form{
+    width: 940px;
+    margin: 10px auto;
+    
+}
+
+#bgimage{
+ width:100%;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    width: 10%;
+    height: 25px;
+    text-transform: capitalize;
+    transition-duration: 1s; 
+}
+
+button:hover{
+
+    color:black;
+    background-color: white;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    margin-top: -5px;
+    background-color: lightgrey;
+    text-align: center;
+    
+    padding: 25px;
+}
+
