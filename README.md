@@ -1,5 +1,5 @@
 # second-portfolio-project
-Creation of a form for a race registration where I ask for data like full, name, e-mail and password. 
+Creation of a form for a race registration where I ask for data like full name, e-mail and password. 
 
 
 In this project called “Race registration,” I could implement new HTML elements like:
